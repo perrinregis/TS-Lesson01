@@ -20,6 +20,8 @@ let myVal: string = addOrConcat(2,2,'contact') as string
 let myVal1: number = addOrConcat(2,2,'contact') as number
 
 
+
+
 // 
 const img = document.querySelector('img') as HTMLImageElement
 const myImg = document.getElementById('#img')! as HTMLImageElement
