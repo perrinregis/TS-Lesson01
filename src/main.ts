@@ -6,6 +6,8 @@ type Three = 'hello'
 let a: One = 'hello'
 let b = a as Two
 
+
+let c: Two = 2
 const addOrConcat = (a: number, b: number, c: 'add' | 'contact' ): string | number => {
     if (c === 'add') {
         return a + b ;
